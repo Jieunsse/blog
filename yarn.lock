@@ -1983,7 +1983,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.2.15":
+"@types/react@npm:*, @types/react@npm:^18.2.23":
   version: 18.2.23
   resolution: "@types/react@npm:18.2.23"
   dependencies:
@@ -2362,7 +2362,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "blog@workspace:."
   dependencies:
-    "@types/react": ^18.2.15
+    "@types/react": ^18.2.23
     "@types/react-dom": ^18.2.7
     "@types/react-router-dom": ^5.3.3
     "@types/styled-components": ^5.1.28
@@ -4606,7 +4606,7 @@ __metadata:
 
 "typescript@patch:typescript@^5.0.2#~builtin<compat/typescript>":
   version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=85af82"
+  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=77c9e2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
