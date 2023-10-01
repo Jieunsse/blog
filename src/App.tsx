@@ -1,12 +1,17 @@
 import React from 'react';
+import Layout from './components/Layout/Layout';
 
 export default function App() {
   return (
-    <div>
-      Default Setting.
-    </div>
+    <>
+      <Layout>
+        HI
+      </Layout>
+    </>
   );
 };
+
+
 
 
 
