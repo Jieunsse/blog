@@ -1,11 +1,12 @@
-import Header from './Header';
-import Footer from './Footer';
+import Header from './Header/index';
+import Footer from './Footer/index';
+
 
 const Layout = (props: {
     children: React.ReactNode
 }) => {
     return (
-        <div>
+        <>
             <Header />
 
             <main>
@@ -13,7 +14,7 @@ const Layout = (props: {
             </main>
 
             <Footer />
-        </div>
+        </>
     );
 };
 
